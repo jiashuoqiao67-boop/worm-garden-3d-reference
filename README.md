@@ -17,7 +17,7 @@ space, depth-sorted back-to-front, and drawn with `pygame.draw` filled polygons.
 Install dependencies:
 
 ```
-pip install numpy pygame
+pip install -r requirements.txt
 ```
 
 ## Run
