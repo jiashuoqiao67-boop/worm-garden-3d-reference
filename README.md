@@ -1,22 +1,12 @@
-# Worm's Garden 3D — Reference Demo
-
-> **This repository is a standalone reference demo. It is NOT the coursework submission.**
-> The graded coursework lives in a separate, unrelated repository
-> (`worms-garden-adventure-3d`). The two repositories are independent and do
-> not reference or depend on each other.
-
-## What this is
+# Worm's Garden 3D
 
 A single-file, software-rendered 3D remake of the 2D maze game, built on top
-of `pygame` + `numpy` (no OpenGL). It is kept here for personal reference only.
+of `pygame` + `numpy` (no OpenGL).
 
-### Rendering approach
+## Rendering
 
-This demo uses the **painter's algorithm**: polygons are projected to screen
+The demo uses the **painter's algorithm**: polygons are projected to screen
 space, depth-sorted back-to-front, and drawn with `pygame.draw` filled polygons.
-It does **not** implement the coursework's required pipeline (Z-buffer depth
-test, per-triangle rasterization, near-plane clipping, manual texture UV
-sampling). Those requirements belong to the separate coursework repository.
 
 ## Requirements
 
