@@ -224,8 +224,8 @@ FOCAL = 960.0           # focal length in pixels -> FOV ~ 2*atan(450/FOCAL)
 NEAR = 26.0             # near clipping plane
 CX = WIDTH * 0.5
 CY = HEIGHT * 0.62
-FOG_START = 600.0
-FOG_END = 1450.0
+FOG_START = 350.0
+FOG_END = 1050.0
 INV_FOG = 1.0 / (FOG_END - FOG_START)
 
 cam_pos = np.array([0.0, 0.0, CAM_HEIGHT])
