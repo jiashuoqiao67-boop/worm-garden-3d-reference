@@ -1,0 +1,25 @@
+# Third-party local binaries (not source)
+pylibs/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Backups
+*.bak
+
+# Editor
+.vscode/
+
+# Local diagnostic / extraction scripts and original source documents
+diag.py
+diag2.py
+extract.py
+original.docx
+original.txt
+
+# Local launcher that depends on the excluded pylibs folder
+run.bat
+
+# Unnamed source copy
+3d
